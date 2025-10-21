@@ -1,0 +1,22 @@
+# Core data handling
+pandas==2.1.1
+numpy==1.27.4
+
+# Visualization
+matplotlib==3.8.1
+seaborn==0.12.2
+
+# Financial data retrieval
+yfinance==0.2.27
+yahoo_fin==0.8.9.1
+
+# Natural language processing
+nltk==3.8.1
+textblob==0.17.1
+
+# HTML parsing
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Optional: Jupyter
+jupyter==1.0.0
