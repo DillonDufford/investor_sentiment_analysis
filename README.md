@@ -79,19 +79,10 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 
 ------------------------------------------------------------------------
 
-### 📈 Sample Visuals
+### 📈 Summary Overview
 
-#### Price vs Sentiment per Ticker
-
-![AAPL Close Price vs Avg Sentiment](reports/AAPL_price_sentiment.png) *Figure: AAPL Close Price (blue) and Average Sentiment (red) over time.*
-
-#### Lagged Sentiment vs Returns
-
-![Lagged Sentiment vs Returns](reports/lagged_sentiment_vs_returns.png) *Figure: Scatter plots of daily returns vs 1-, 2-, and 3-day lagged sentiment.*
-
-#### Correlation Heatmaps per Ticker
-
-![AAPL Correlation Heatmap](reports/AAPL_correlation_heatmap.png) *Figure: Correlation between Close price and sentiment for AAPL.*
+![Summary Overview](reports/summary_overview.png)
+*Figure: Key metrics—top-performing stocks, volatility, average volume, correlations, and sentiment vs returns.*
 
 ------------------------------------------------------------------------
 
