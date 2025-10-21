@@ -8,22 +8,22 @@ Welcome to my **Investor Sentiment Analysis Portfolio**! This repository showcas
 
 This repository contains three notebooks:
 
-1.  **00_data_connection_test.ipynb**\
-    *Purpose:* Test connectivity with financial data sources and ensure successful data retrieval.\
+1.  **00_data_connection_test.ipynb**
+    *Purpose:* Test connectivity with financial data sources and ensure successful data retrieval.
     *Highlights:* Data extraction pipelines, API connection validation, and basic preprocessing.
 
-2.  **01_stock_data_exploration.ipynb**\
-    *Purpose:* Explore historical stock price trends and volume statistics.\
+2.  **01_stock_data_exploration.ipynb**
+    *Purpose:* Explore historical stock price trends and volume statistics.
     *Highlights:* EDA on major tickers, normalization of stock prices, volatility analysis, and visualizations.
 
-3.  **investor_sentiment_case_study.ipynb**\
-    *Purpose:* Integrate stock market data with news sentiment to analyze relationships between sentiment and returns.\
+3.  **investor_sentiment_case_study.ipynb**
+    *Purpose:* Integrate stock market data with news sentiment to analyze relationships between sentiment and returns.
     *Highlights:*
 
-    -   Automated data collection (prices + news sentiment)\
-    -   Merged dataset creation and cleaning\
-    -   Correlation and lagged sentiment analysis\
-    -   Top-performing and most volatile stocks\
+    -   Automated data collection (prices + news sentiment)
+    -   Merged dataset creation and cleaning
+    -   Correlation and lagged sentiment analysis
+    -   Top-performing and most volatile stocks
     -   Visualizations for stakeholders
 
 ------------------------------------------------------------------------
@@ -32,11 +32,11 @@ This repository contains three notebooks:
 
 All reusable Python functions are organized in:
 
--   **`scripts/helpers.py`**\
+-   **`scripts/helpers.py`**
     Functions include:
-    -   `scrape_news` – Fetches news articles for selected tickers\
-    -   `get_sentiment` – Computes sentiment scores from text\
-    -   `get_news_sentiment` – Aggregates sentiment per ticker & date\
+    -   `scrape_news` – Fetches news articles for selected tickers
+    -   `get_sentiment` – Computes sentiment scores from text
+    -   `get_news_sentiment` – Aggregates sentiment per ticker & date
     -   `plot_stock_trends` – Generates price vs. sentiment plots
 
 You can import these directly in your notebooks to keep code modular and maintainable.
@@ -45,34 +45,34 @@ You can import these directly in your notebooks to keep code modular and maintai
 
 ## 🛠 Technologies and Libraries Used
 
--   **Python**\
--   **Pandas** – Data manipulation and merging\
--   **NumPy** – Numerical computations\
--   **Matplotlib & Seaborn** – Data visualization\
--   **NLTK & TextBlob** – Natural language processing and sentiment analysis\
--   **yfinance** – Historical stock price data\
+-   **Python**
+-   **Pandas** – Data manipulation and merging
+-   **NumPy** – Numerical computations
+-   **Matplotlib & Seaborn** – Data visualization
+-   **NLTK & TextBlob** – Natural language processing and sentiment analysis
+-   **yfinance** – Historical stock price data
 -   **yahoo_fin** – News article scraping
 
 ------------------------------------------------------------------------
 
 ## 📊 Key Features & Insights
 
--   Daily stock price and volume analysis across multiple major tickers\
--   Automated sentiment extraction from financial news\
--   Merged price-sentiment dataset for deeper analysis\
--   Calculation of returns, volatility, and lagged sentiment correlations\
--   Identification of top-performing and most volatile stocks\
+-   Daily stock price and volume analysis across multiple major tickers
+-   Automated sentiment extraction from financial news
+-   Merged price-sentiment dataset for deeper analysis
+-   Calculation of returns, volatility, and lagged sentiment correlations
+-   Identification of top-performing and most volatile stocks
 -   Visual storytelling for professional stakeholders
 
-**Note on Average Sentiment:**\
+**Note on Average Sentiment:**
 The average sentiment values in this analysis are centered around 0.5 (rather than 0) because the sentiment scoring is normalized and scaled during preprocessing. This ensures consistency in visualization and avoids misinterpretation, particularly if stakeholders review charts independently of the full notebook context.
 
 ------------------------------------------------------------------------
 
 ### Data & Reports
 
--   **Raw datasets:** `data/raw/`\
--   **Processed datasets:** `data/processed/`\
+-   **Raw datasets:** `data/raw/`
+-   **Processed datasets:** `data/processed/`
 -   **Visualizations & charts:** `reports/`
 
 > All processed datasets and visualizations are saved to these folders for easy access. Users can explore results without rerunning the entire notebook.
@@ -88,8 +88,8 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 
 ### ⚡ Quick Insights
 
--   **Top-Performing Stocks:** Identified using daily return metrics\
--   **Most Volatile Stocks:** Identified using daily price volatility\
+-   **Top-Performing Stocks:** Identified using daily return metrics
+-   **Most Volatile Stocks:** Identified using daily price volatility
 -   **Lagged Sentiment Correlations:** 1-day lag shows moderate positive relationship; correlations decrease for 2- and 3-day lags
 
 ------------------------------------------------------------------------
