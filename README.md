@@ -8,23 +8,22 @@ Welcome to my **Investor Sentiment Analysis Portfolio**! This repository showcas
 
 This repository contains three notebooks:
 
-1.  **00_data_connection_test.ipynb**
-    *Purpose:* Test connectivity with financial data sources and ensure successful data retrieval.
+1.  [**00_data_connection_test.ipynb**](notebooks/00_data_connection_test.ipynb)  
+    *Purpose:* Test connectivity with financial data sources and ensure successful data retrieval.  
     *Highlights:* Data extraction pipelines, API connection validation, and basic preprocessing.
 
-2.  **01_stock_data_exploration.ipynb**
-    *Purpose:* Explore historical stock price trends and volume statistics.
+2.  [**01_stock_data_exploration.ipynb**](notebooks/01_stock_data_exploration.ipynb)  
+    *Purpose:* Explore historical stock price trends and volume statistics.  
     *Highlights:* EDA on major tickers, normalization of stock prices, volatility analysis, and visualizations.
 
-3.  **investor_sentiment_case_study.ipynb**
-    *Purpose:* Integrate stock market data with news sentiment to analyze relationships between sentiment and returns.
+3.  [**investor_sentiment_case_study.ipynb**](notebooks/investor_sentiment_case_study.ipynb)  
+    *Purpose:* Integrate stock market data with news sentiment to analyze relationships between sentiment and returns.  
     *Highlights:*
-
-    -   Automated data collection (prices + news sentiment)
-    -   Merged dataset creation and cleaning
-    -   Correlation and lagged sentiment analysis
-    -   Top-performing and most volatile stocks
-    -   Visualizations for stakeholders
+    - Automated data collection (prices + news sentiment)
+    - Merged dataset creation and cleaning
+    - Correlation and lagged sentiment analysis
+    - Top-performing and most volatile stocks
+    - Visualizations for stakeholders
 
 ------------------------------------------------------------------------
 
@@ -98,4 +97,6 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 
 Clone this repository:
 
-\`\`\`bash git clone <https://github.com/><your-username>/<repo-name>.git cd <repo-name>
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
