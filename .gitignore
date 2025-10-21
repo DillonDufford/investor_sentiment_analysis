@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# ---- Virtual environments ----
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# ---- Data ----
+data/raw/
+data/interim/
+data/processed/
+data/external/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.zip
+*.tar.gz
+*.h5
+*.pkl
+
+# ---- Reports / Outputs ----
+reports/figures/
+reports/tmp/
+reports/*.html
+reports/*.pdf
+
+# ---- System / Editor files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.bak
+*.swp
+
+# ---- Others ----
+*.tmp
