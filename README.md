@@ -53,6 +53,13 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 
 ---
 
+### Data & Reports
+
+- **Processed datasets:** `data/processed/`  
+- **Visualizations:** `reports/`
+
+---
+
 ## 📈 Usage
 
 1. Clone this repository:
