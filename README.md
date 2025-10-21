@@ -93,6 +93,13 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 
 ------------------------------------------------------------------------
 
+## 🔗 Let's Connect
+
+📫 [LinkedIn (https://www.linkedin.com/in/dillon-dufford-a83b04347/)]   
+📂 [Portfolio (https://dillondufford.github.io/dillon-dufford-portfolio/)]
+
+---
+
 ## 📈 Usage
 
 Clone this repository:
