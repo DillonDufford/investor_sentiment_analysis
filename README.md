@@ -76,15 +76,38 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 
 > All processed datasets and visualizations are saved to these folders for easy access. Users can explore results without rerunning the entire notebook.
 
-**Sample Visuals:**  
-![Sample Price vs Sentiment](reports/AAPL_price_sentiment.png)  
-![Sample Lagged Sentiment vs Returns](reports/lagged_sentiment_vs_returns.png)
+---
+
+### 📈 Sample Visuals
+
+#### Price vs Sentiment per Ticker
+
+![AAPL Close Price vs Avg Sentiment](reports/AAPL_price_sentiment.png)
+*Figure: AAPL Close Price (blue) and Average Sentiment (red) over time.*
+
+#### Lagged Sentiment vs Returns
+
+![Lagged Sentiment vs Returns](reports/lagged_sentiment_vs_returns.png)
+*Figure: Scatter plots of daily returns vs 1-, 2-, and 3-day lagged sentiment.*
+
+#### Correlation Heatmaps per Ticker
+
+![AAPL Correlation Heatmap](reports/AAPL_correlation_heatmap.png)
+*Figure: Correlation between Close price and sentiment for AAPL.*
+
+---
+
+### ⚡ Quick Insights
+
+- **Top-Performing Stocks:** Identified using daily return metrics  
+- **Most Volatile Stocks:** Identified using daily price volatility  
+- **Lagged Sentiment Correlations:** 1-day lag shows moderate positive relationship; correlations decrease for 2- and 3-day lags
 
 ---
 
 ## 📈 Usage
 
-1. Clone this repository:
+Clone this repository:
 
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
