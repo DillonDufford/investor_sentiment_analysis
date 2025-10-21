@@ -27,6 +27,21 @@ This repository contains three notebooks:
 
 ---
 
+### 📝 Helper Scripts
+
+All reusable Python functions are organized in:
+
+- **`scripts/helpers.py`**  
+  Functions include:
+  - `scrape_news` – Fetches news articles for selected tickers  
+  - `get_sentiment` – Computes sentiment scores from text  
+  - `get_news_sentiment` – Aggregates sentiment per ticker & date  
+  - `plot_stock_trends` – Generates price vs. sentiment plots  
+
+You can import these directly in your notebooks to keep code modular and maintainable.
+
+---
+
 ## 🛠 Technologies and Libraries Used
 
 - **Python**  
@@ -55,8 +70,15 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 
 ### Data & Reports
 
+- **Raw datasets:** `data/raw/`  
 - **Processed datasets:** `data/processed/`  
-- **Visualizations:** `reports/`
+- **Visualizations & charts:** `reports/`  
+
+> All processed datasets and visualizations are saved to these folders for easy access. Users can explore results without rerunning the entire notebook.
+
+**Sample Visuals:**  
+![Sample Price vs Sentiment](reports/AAPL_price_sentiment.png)  
+![Sample Lagged Sentiment vs Returns](reports/lagged_sentiment_vs_returns.png)
 
 ---
 
@@ -67,7 +89,3 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-
----
-
-This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
