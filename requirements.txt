@@ -1,22 +1,29 @@
-# Core data handling
+# Data manipulation
 pandas==2.1.1
-numpy==1.27.4
+numpy==1.27.1
+
+# Web requests & parsing
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+html5lib==1.1
+
+# Yahoo Finance data
+yfinance==0.2.42
+yahoo_fin==0.8.9.1
+
+# Sentiment analysis
+nltk==3.9.1
+textblob==0.17.1
+vaderSentiment==3.3.2
 
 # Visualization
 matplotlib==3.8.1
-seaborn==0.12.2
+seaborn==0.13.2
 
-# Financial data retrieval
-yfinance==0.2.27
-yahoo_fin==0.8.9.1
+# Optional, for datetime operations
+python-dateutil==2.8.2
 
-# Natural language processing
-nltk==3.8.1
-textblob==0.17.1
-
-# HTML parsing
-beautifulsoup4==4.12.2
-requests==2.31.0
-
-# Optional: Jupyter
-jupyter==1.0.0
+# Ensure consistent Jupyter Notebook environment
+notebook==6.5.4
+jupyterlab==4.3.2
