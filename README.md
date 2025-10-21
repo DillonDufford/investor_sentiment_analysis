@@ -60,3 +60,7 @@ The average sentiment values in this analysis are centered around 0.5 (rather th
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
+
+---
+
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
