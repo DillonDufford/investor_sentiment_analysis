@@ -16,7 +16,7 @@ This repository contains three notebooks:
     *Purpose:* Explore historical stock price trends and volume statistics.  
     *Highlights:* EDA on major tickers, normalization of stock prices, volatility analysis, and visualizations.
 
-3.  [**investor_sentiment_case_study.ipynb**](notebooks/investor_sentiment_case_study.ipynb)  
+3.  [**investor_sentiment_case_study.ipynb**](notebooks/02_multi_stock_comparison/investor_sentiment_case_study.ipynb)  
     *Purpose:* Integrate stock market data with news sentiment to analyze relationships between sentiment and returns.  
     *Highlights:*
     - Automated data collection (prices + news sentiment)
